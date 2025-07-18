@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.8">
+	<link rel="stylesheet" href="assets/btdstyles07.css">
+	<title>Bow Tie Diagrams</title>
+	<link rel="icon" href="assets/btd16x16.png" type="image/png"></head>
+<body>
+
+	<div class="container">
+		<h1 id="contents">BTD Diagram for : BTD Test Project</h1>
+		<h4 id="contents">Project Number: 0003</h4>
+		<div class="btd-extractid-container">BTD000227</div>
+		<div class="content-page">
+			<a href="#diagram1" class="content-link">Haz1 :RevNo. 1 Configuration inappropriate to use.</a>
+		</div>
+		<div class="content-page">
+			<a href="#diagram2" class="content-link">Haz2 :RevNo. 1 System becomes unavailable</a>
+		</div>
+		<input type="file" id="load-notes-file" style="display: none;">
+		<div class="button-container">
+			<button class="load-latest-notes">Load Latest Notes</button>
+			<button class="save-all-notes">Save All Notes</button>
+		</div>
+		<div class="diagram-box">
+			<div id="diagram1" class="diagram-container">
+				<h2>Haz1 : Configuration inappropriate to use.</h2>
+				<h4>Functional Area: Software</h4>
+				<div id="RTAID1" class="rta-summary">
+					<div class="rta-box">
+						<strong>Action</strong>
+						<div>4Ts Determination from HAZLOG (Tolerate, Treat, Transfer, Terminate)</div>
+					</div>
+					<div class="rta-box">
+						<strong>Action Summary</strong>
+						<div class="rta-hover">Rationale Summary to be determined.<span class="info-icon" data-info="Rationale Explanation to be determined.">i</span></div>
+					</div>
+					<div class="rta-box">
+						<strong>Action Owner</strong>
+						<div>TBD</div>
+						<hr>
+						<strong>Handover Date</strong>
+						<hr>
+						<div>Not Set</div>
+					</div>
+					<div class="rta-box">
+						<strong>CSO</strong>
+						<div>TBD</div>
+						<hr>
+						<strong>Handover Date</strong>
+						<hr>
+						<div>Not Set</div>
+					</div>
+				</div>
+
+				<div class="diagram">
+					<div class="column causes">
+						<div class="row">
+							<div class="item" id="CS14">CS14<hr><div class="rta-hover">System is not configured correctly.<span class="info-icon" data-info="Configuration of the system is carried out by untrained and inexperienced personnel.">i</span></div><hr>Configuration
+							</div>
+
+							<div class="item" id="PCT14">
+								<span style="color:purple;">PCT14</span>
+								<hr><div class="rta-hover">Configuration activity is restricted.<span class="info-icon" data-info="Configuration is only carried out by trained and experienced personnel.">i</span></div>								<hr>Exteral Configuration
+								<hr><span style="color:purple;">[CTRL Stage TBD]</span>
+								<hr><div class="rta-hover">Evidence<span class="info-icon" data-info="Evidence not produced or examined yet.">i</span></div>							</div>
+
+							<div class="item" id="PCT15">
+								<span style="color:purple;">PCT15</span>
+								<hr><div class="rta-hover">Configuration is restricted.<span class="info-icon" data-info="Specific user credentials restrict the users who have access functions that allow system configuration changes to be made.">i</span></div>								<hr>Exteral Configuration
+								<hr><span style="color:purple;">[CTRL Stage TBD]</span>
+								<hr><div class="rta-hover">Evidence<span class="info-icon" data-info="Evidence not produced or examined yet.">i</span></div>							</div>
+
+						</div>
+						<div class="row">
+							<div class="item" id="CS16">CS16<hr><div class="rta-hover">System is used incorrectly<span class="info-icon" data-info="Users can operate the system in an unexpected way">i</span></div><hr>Human Factors
+							</div>
+
+							<div class="item" id="PCT16">
+								<span style="color:purple;">PCT16</span>
+								<hr><div class="rta-hover">Training is given before go live.<span class="info-icon" data-info="Users have training in use of the system prior to going live.">i</span></div>								<hr>Policy
+								<hr><span style="color:purple;">[CTRL Stage TBD]</span>
+								<hr><div class="rta-hover">Evidence<span class="info-icon" data-info="Evidence not produced or examined yet.">i</span></div>							</div>
+
+							<div class="item" id="PCT17">
+								<span style="color:purple;">PCT17</span>
+								<hr><div class="rta-hover">Non-Live Training System is available.<span class="info-icon" data-info="Users have access to a training system that uses synthetic data that they can manipulate">i</span></div>								<hr>Policy
+								<hr><span style="color:purple;">[CTRL Stage TBD]</span>
+								<hr><div class="rta-hover">Evidence<span class="info-icon" data-info="Evidence not produced or examined yet.">i</span></div>							</div>
+
+						</div>
+					</div>
+					<div class="column top-event">
+						<div class="top-event-container">
+							<div class="top-event-box" id="TE1">Top Event: Haz1<hr>
+							<div class="rta-hover">Improper system configuration deployment<span class="info-icon" data-info="Improper system configuration deployment refers to the critical event where the setup and deployment of a system, software, or technology infrastructure deviate from established standards, best practices, or requirements. This deviation results in configurations that are inappropriate or insufficient for the intended operational use of the system">i</span></div>
+							</div>
+						</div>
+						<div class="hazard" id="Haz1">Haz1<br>							<div class="rta-hover">Configuration inappropriate to use.<span class="info-icon" data-info="The system's configuration is not suitable or correct for its intended use in patient care.">i</span></div>
+						</div>
+						<div class="risk-summary-container">
+							<div id="RISK1" class="risk-summary">
+								Initial Risk Summary
+								<div style="background-color: rgb(249,191,143);"><strong>3 Considerable</strong></div>
+								<div style="background-color: rgb(255,255,103);"><strong>2 Low</strong></div>
+								<div style="background-color: rgb(255,255,103);"><strong>2:Moderate</strong></div>
+								Tolerable where cost of further reduction outweighs benefits gained
+								<hr>
+								Residual Risk Summary
+								<div style="background-color: rgb(255,255,103);"><strong>2 Significant</strong></div>
+								<div style="background-color: rgb(255,255,103);"><strong>2 Low</strong></div>
+								<div style="background-color: rgb(255,255,103);"><strong>2:Moderate</strong></div>
+								Tolerable where cost of further reduction outweighs benefits gained
+								<div class="rta-hover">Risk Reduction Rationale<span class="info-icon" data-info="Addressing this hazard "Improper system configuration deployment" is crucial for maintaining system reliability, security, and regulatory compliance. It underscores the need for meticulous planning, technical expertise, and continuous improvement in deployment practices to minimize operational risks and enhance system resilience.">i</span></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="column consequences">
+						<div class="row">
+							<div class="item" id="RCT19">
+								<span style="color:purple;">RCT19</span>
+								<hr><div class="rta-hover">Working configurations are archived.<span class="info-icon" data-info="Previous working and tested configurations are retained on the system. A record of changes is also kept and is visible to those who are permitted to change configurations.">i</span></div>								<hr>Policy
+								<hr><span style="color:purple;">[CTRL Stage TBD]</span>
+								<hr><div class="rta-hover">Evidence<span class="info-icon" data-info="Evidence not produced or examined yet.">i</span></div>							</div>
+
+							<div class="item" id="CN101A">CN101<hr><div class="rta-hover">Delayed or inappropriate patient care.<span class="info-icon" data-info="Inappropriate patient care, misdiagnosis or medication issues. Data could be lost or sent to the wrong place delaying or frustrating timely patient care.">i</span></div><hr>Design
+							</div>
+
+						</div>
+						<div class="row">
+							<div class="item" id="RCT18">
+								<span style="color:purple;">RCT18</span>
+								<hr><div class="rta-hover">Users supported on go-live.<span class="info-icon" data-info="When the system goes live "Floor Walkers" are made available to assist anyone in the correct use of the system in the live situation.">i</span></div>								<hr>Policy
+								<hr><span style="color:purple;">[CTRL Stage TBD]</span>
+								<hr><div class="rta-hover">Evidence<span class="info-icon" data-info="Evidence not produced or examined yet.">i</span></div>							</div>
+
+							<div class="item" id="CN101B">CN101<hr><div class="rta-hover">Delayed or inappropriate patient care.<span class="info-icon" data-info="Inappropriate patient care, misdiagnosis or medication issues. Data could be lost or sent to the wrong place delaying or frustrating timely patient care.">i</span></div><hr>Design
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<svg id="svg101" class="svgCanvas"></svg>
+				<div class="titleleft">Date:2025-07-18</div>
+				<a href="#contents" class="back-button">Back to Contents</a>
+			</div>
+		</div>
+		<div class="diagram-box">
+			<div id="diagram2" class="diagram-container">
+				<h2>Haz2 : System becomes unavailable</h2>
+				<h4>Functional Area: Unavailability</h4>
+				<div id="RTAID2" class="rta-summary">
+					<div class="rta-box">
+						<strong>Action</strong>
+						<div>4Ts Determination from HAZLOG (Tolerate, Treat, Transfer, Terminate)</div>
+					</div>
+					<div class="rta-box">
+						<strong>Action Summary</strong>
+						<div class="rta-hover">Rationale Summary to be determined.<span class="info-icon" data-info="Rationale Explanation to be determined.">i</span></div>
+					</div>
+					<div class="rta-box">
+						<strong>Action Owner</strong>
+						<div>TBD</div>
+						<hr>
+						<strong>Handover Date</strong>
+						<hr>
+						<div>Not Set</div>
+					</div>
+					<div class="rta-box">
+						<strong>CSO</strong>
+						<div>TBD</div>
+						<hr>
+						<strong>Handover Date</strong>
+						<hr>
+						<div>Not Set</div>
+					</div>
+				</div>
+
+				<div class="diagram">
+					<div class="column causes">
+						<div class="row">
+							<div class="item" id="CS23">CS23<hr><div class="rta-hover">System resources insufficient.<span class="info-icon" data-info="The system has not been designed to scale sufficiently to meet the demands in everyday use.">i</span></div><hr>Hardware
+							</div>
+
+							<div class="item" id="PCT20">
+								<span style="color:purple;">PCT20</span>
+								<hr><div class="rta-hover">System designed to be scalable<span class="info-icon" data-info="The design of the system allows it to scale to meet current and possible future demands.">i</span></div>								<hr>Architecture
+								<hr><span style="color:purple;">[CTRL Stage TBD]</span>
+								<hr><div class="rta-hover">Evidence<span class="info-icon" data-info="Evidence not produced or examined yet.">i</span></div>							</div>
+
+						</div>
+					</div>
+					<div class="column top-event">
+						<div class="top-event-container">
+							<div class="top-event-box" id="TE2">Top Event: Haz2<hr>
+							<div class="rta-hover">System outage or data not available.<span class="info-icon" data-info="A system outage or poor performance could affect the efficient delivery of patient care.">i</span></div>
+							</div>
+						</div>
+						<div class="hazard" id="Haz2">Haz2<br>							<div class="rta-hover">System becomes unavailable<span class="info-icon" data-info="System becomes unavailable to clinicians.">i</span></div>
+						</div>
+						<div class="risk-summary-container">
+							<div id="RISK2" class="risk-summary">
+								Initial Risk Summary
+								<div style="background-color: rgb(255,255,103);"><strong>2 Significant</strong></div>
+								<div style="background-color: rgb(217,149,148);"><strong>4 High</strong></div>
+								<div style="background-color: rgb(249,191,143);"><strong>Significant</strong></div>
+								
+								<hr>
+								Residual Risk Summary
+								<div style="background-color: rgb(255,255,103);"><strong>2 Significant</strong></div>
+								<div style="background-color: rgb(255,255,103);"><strong>2 Low</strong></div>
+								<div style="background-color: rgb(255,255,103);"><strong>Moderate</strong></div>
+								
+								<div class="rta-hover">Risk Reduction Rationale<span class="info-icon" data-info="Managing system availability is most important and consideration should be given to this in the design of the architecture and the software during the planning stages.">i</span></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="column consequences">
+						<div class="row">
+							<div class="item" id="RCT21">
+								<span style="color:purple;">RCT21</span>
+								<hr><div class="rta-hover">System Resilience<span class="info-icon" data-info="The system has been designed to flex resources to meet demands. ">i</span></div>								<hr>Architecture
+								<hr><span style="color:purple;">[CTRL Stage TBD]</span>
+								<hr><div class="rta-hover">Evidence<span class="info-icon" data-info="Evidence not produced or examined yet.">i</span></div>							</div>
+
+							<div class="item" id="CN102C">CN102<hr><div class="rta-hover">Delayed or incompete patient care<span class="info-icon" data-info="Patient care could be delayed. Scheduled patient care may need to be postponed creating a critical delay in some cases. ">i</span></div><hr>Design
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<svg id="svg102" class="svgCanvas"></svg>
+				<div class="titleleft">Date:2025-07-18</div>
+				<a href="#contents" class="back-button">Back to Contents</a>
+			</div>
+		</div>
+	</div>
+	<script src="assets/btdscripts07.js" defer></script>
+</body>
+</html>
