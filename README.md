@@ -1,5 +1,13 @@
 # DCB0129/DCB0160 Bow Tie Diagram Template
 
+## DISCLAIMER
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
+
+## The Project
+
 This is a demo project with a simple HTML-based bow tie diagram layout.
 
 The diagrams allow rapid visual review of information that would otherwise be presented in lengthy spreadsheets and other forms of document.

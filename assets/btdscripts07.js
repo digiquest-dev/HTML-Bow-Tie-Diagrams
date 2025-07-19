@@ -1,4 +1,7 @@
 //Use of this code is subject to the licence agreement on github
+//
+//DISCLAIMER: This software is provided "as is", without warranty of any kind.
+//Use at your own risk.
 // Main script begins once the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", function () {
     // Spacing parameters for drawing lines between elements
