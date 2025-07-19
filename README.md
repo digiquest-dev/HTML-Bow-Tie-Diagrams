@@ -1,10 +1,18 @@
 # DCB0129/DCB0160 Bow Tie Diagram Template
 
-## DISCLAIMER
+## ⚠️ DISCLAIMER
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
 INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
+
+## ⚠️ Disclaimer
+
+This software is provided **"as is"** and used entirely at your own risk. 
+It is your responsibility to consult your IT and cybersecurity specialists before use, to ensure the files meet your organisation’s security, data protection, and compliance requirements.
+
+No responsibility or liability is accepted for any issues arising from this software, including interactions with other software present on your system.
+
 
 ## The Project
 
