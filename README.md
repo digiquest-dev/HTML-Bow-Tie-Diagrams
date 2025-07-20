@@ -17,7 +17,7 @@ No responsibility or liability is accepted for any issues arising from this soft
 
 #### 🛡️For Clinical and Non-Technical Users
 
-This system uses JavaScript and CSS to support visual diagramming, tooltips, and local note-taking. It does **not transmit any data**, does **not access NHS systems or patient-identifiable information**, and contains **no tracking** or analytics of any kind.
+This system uses JavaScript and CSS to support visual diagramming, tooltips, and local note-taking. It does **not transmit any data**, does **not access Healthcare Information Systems or patient-identifiable information**, and contains **no tracking** or analytics of any kind.
 
 All interaction stays on your device, and any notes are saved or loaded manually using your browser. If you work within an Healthcare setting, you may wish to ask a local IT or governance contact to review the included files (`assets/btdscripts07.js` and `assets/btdstyles07.css`) before use. These files are openly provided and are safe to inspect.
 
