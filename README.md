@@ -19,7 +19,7 @@ No responsibility or liability is accepted for any issues arising from this soft
 
 This system uses JavaScript and CSS to support visual diagramming, tooltips, and local note-taking. It does **not transmit any data**, does **not access NHS systems or patient-identifiable information**, and contains **no tracking** or analytics of any kind.
 
-All interaction stays on your device, and any notes are saved or loaded manually using your browser. If you work within an NHS setting, you may wish to ask a local IT or governance contact to review the included files (`assets/btdscripts07.js` and `assets/btdstyles07.css`) before use. These files are openly provided and are safe to inspect.
+All interaction stays on your device, and any notes are saved or loaded manually using your browser. If you work within an Healthcare setting, you may wish to ask a local IT or governance contact to review the included files (`assets/btdscripts07.js` and `assets/btdstyles07.css`) before use. These files are openly provided and are safe to inspect.
 
 #### For Technical and Clinical Safety Reviewers
 
@@ -186,8 +186,14 @@ This functionality is designed to **support peer review and collaboration**, esp
 Once you are satisfied that the CSS and JS files meet their claim of being non-harmful, you can proceed with viewing the sample diagram.
 
 These links are available to do this;
-A ‘web page view’ can be seen on these links. Note the HTML uses StyleSheets (CSS) and Javascript (JS)
+A ‘web page view’ can be seen on these links. 
+
+**Note the HTML uses StyleSheets (CSS) and Javascript (JS).**
+**BEFORE CLICKING ON THESE LINKS**
+Ensure that you have read the paragraphs concerning Javascript and CSS security beforehand.
+
 (https://htmlpreview.github.io/?https://raw.githubusercontent.com/digiquest-dev/HTML-Bow-Tie-Diagrams/refs/heads/main/BTD-Example.HTML)
+
 If the diagram does not display properly an alternative link is:
 (https://digiquest-dev.github.io/HTML-Bow-Tie-Diagrams/BTD-Example.HTML)
 
