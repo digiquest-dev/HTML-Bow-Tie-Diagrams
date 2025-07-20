@@ -189,8 +189,10 @@ These links are available to do this;
 A ‘web page view’ can be seen on these links. 
 
 **Note the HTML uses StyleSheets (CSS) and Javascript (JS).**
+
 **BEFORE CLICKING ON THESE LINKS**
-Ensure that you have read the paragraphs concerning Javascript and CSS security beforehand.
+
+**Ensure that you have read the paragraphs concerning Javascript and CSS security beforehand.**
 
 (https://htmlpreview.github.io/?https://raw.githubusercontent.com/digiquest-dev/HTML-Bow-Tie-Diagrams/refs/heads/main/BTD-Example.HTML)
 
